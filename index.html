@@ -1,0 +1,362 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+ background:   #0000b3;
+ margin: 0;
+ padding: 10px;
+ font-family: 'Public Sans', sans-serif; 
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ff33ff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>EjalTV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+      <div class="netflixLogo">
+        <a id="logo" href="https://hpmurah2u.github.io/ejaltv.github.io/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/logo%20ejal%20tv%20baru%20149x70.png?raw=true" alt="Logo Image"></a>
+      
+     </div>      
+     <marquee style='font-family:arial; font-size:26px; color: #ffff00;'>Sub page untuk all live tv ni saya akan susun kemudian..sekarang ni bersepah lagi.. harap maklum</marquee>
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Channel Sport</h1>
+          <div class="box">
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-assp/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/ASSP%20290x157.png?raw=true" alt="assp"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-assp2/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/assp2%20290x157.png?raw=true" alt="assp2"></a>
+            <a href="https://hpmurah2u.github.io/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/assp3%20290x157.png?raw=true" alt="assp3"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-assp4/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/assp4%20290X157.png?raw=true" alt="ass4"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-assp5/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/assp5%20290x157.png?raw=true" alt="assp5"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-arena/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/arena%20290x157.png?raw=true" alt="arena"></a>
+    
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-arena2/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/ARENA%202%20290x157.png?raw=true" alt="arena2"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-arenabola/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/arena%20bola%20290x157.png?raw=true" alt="arenabola"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-arenabola2/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/arenabola2%20290x157.png?raw=true" alt="arenabola2"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-arenabola3/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/arenabola3%20290x157.png?raw=true" alt="arenabola3"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-arenabola4/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/arenabola4%20290x157.png?raw=true" alt="arenabola4"></a>
+            <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-wwe/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/WWE%20290x157.png?raw=true" alt="wwe"></a>        
+          </div>
+      </div>
+      
+
+      <h1 id="myList">Channel Bahasa Melayu</h1>
+      <div class="box">
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-tv1/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/tv1%20290x157.png?raw=true" alt="tv1"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-tv2/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/tv2%20290x157.png?raw=true" alt="tv2"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-tv3/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/TV3%20290x157.png?raw=true" alt="tv3"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-tv9/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/TV9%20290x157.png?raw=true" alt="tv9"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-hijrah/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/Al-Hijrah%20290x157.png?raw=true" alt="alhijrah"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-awani/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/Astro_Awani%20290x157.png?raw=true" alt="awani"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-awesome/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/awesome%20290x157.png?raw=true" alt="awesometv"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-prima/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/prima%20290x157.png?raw=true" alt="prima"></a> 
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-oasis/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/oasis%20290x157.png?raw=true" alt="oasis"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-ceria/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/ceria%20290x157.png?raw=true" alt="ceria"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-hbo/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/hbo%20290x157.png?raw=true" alt="hbo"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-boo/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/boo%20290x157.png?raw=true" alt="boo"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-axn/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/axn%20290x157.png?raw=true" alt="axn"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-hgtv/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/hgtv%20290x157.png?raw=true" alt="hgtv"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-kbsworld/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/kbs%20world%20290x157.png?raw=true" alt="kbsworld"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-tvn/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/tvn%20290x157.png?raw=true" alt="tvn"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-bollyone/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/BollyOne%20%20290x157.png?raw=true" alt="bollyone"></a>
+     </div>
+      
+      <h1 id="tvShows">Channel Movies</h1>
+      <div class="box">
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-megan/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/megan%202023%20290x157.jpg?raw=true" alt="megan"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-plane/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/plane2023%20290x157.jpg?raw=true" alt="plane"></a>
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-ifinethankyou/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/ifinethankyou%20290x157.jpg?raw=true" alt="ifinethankyou"></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv6.PNG?raw=true" alt=""></a>
+
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv7.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv8.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv9.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv10.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv11.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv12.PNG?raw=true" alt=""></a>              
+      </div>
+      
+
+      <h1 id="movies">Channel Kids</h1>
+      <div class="box">
+        <a href="https://hpmurah2u.github.io/hpmurah2u.github.io-mh370/"><img src="https://raw.githubusercontent.com/hpmurah2u/pejal/PEJAL/Mh370%20290x157.jpg?raw=true" alt="mh370"></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>                
+      </div>
+
+      <h1 id="originals">Channel Chinese</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Indian</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel News</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Education</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Entertainment</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Korean</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Lifestyle</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Documentaries</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Singapore</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+      
+      <h1 id="originals">Channel Unifi TV</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true" alt=""></a>                
+      </div>
+     
+    <!-- END OF MAIN CONTAINER -->
+
+   
+    <!-- FOOTER -->
+    <footer>
+      <p><font size="4" color="#ffffff">&copy 2023 EjalTV</font></p>
+    
+    </footer>
+  </div>
+   <script src="https://dunggramer.github.io/disable-devtool/disable-devtool.min.js" defer></script>
+   
+   <!DOCTYPE html>
+<html>
+<head>
+<style>
+body 
+
+h1 {
+  color: white;
+  font-size: 27px;
+}
+
+</style>
+</head>
+<body>
+</body>
+</html>
+
+</body>
+</html>
